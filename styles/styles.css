@@ -1,7 +1,7 @@
-@import "/styles/background/background.css";
-@import "/styles/card_animation/card_animation.css";
-@import "/styles/cards/cards.css";
-@import "/styles/gallery/gallery.css";
-@import "/styles/nav/nav.css";
-@import "/styles/section_computer/computer.css";
-@import "/styles/variables.css";
+@import "./background/background.css";
+@import "./card_animation/card_animation.css";
+@import "./cards/cards.css";
+@import "./gallery/gallery.css";
+@import "./nav/nav.css";
+@import "./section_computer/computer.css";
+@import "./variables.css";
