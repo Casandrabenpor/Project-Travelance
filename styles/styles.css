@@ -190,6 +190,7 @@ h3 {
 
 .gallery_container {
   width: 100%;
+  cursor: pointer;
 }
 .gallery_container .gallery_card {
   background: #E7E829;

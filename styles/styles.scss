@@ -211,9 +211,10 @@ h3 {
 
 .gallery_container {
     width: 100%;
+    cursor: pointer;
 
     .gallery_card {
-background: #E7E829;
+        background: #E7E829;
         box-shadow: 0px 10px 20px #7E76F91A;
         border-radius: 6%;
         opacity: 0.5;
@@ -228,11 +229,11 @@ background: #E7E829;
         opacity: 1;
         margin-top: 5%;
     }
-    
-.gallery_paragraph {
-    margin-left: 7%;
-    width: 20vw;
-}
+
+    .gallery_paragraph {
+        margin-left: 7%;
+        width: 20vw;
+    }
 
 }
 
