@@ -43,7 +43,7 @@ h2 {
     top: 30%;
     padding-top: 10%;
     text-align: left;
-    font: normal normal 800 25px/38px Poppins;
+    font-family: normal normal 800 25px/38px Poppins;
     letter-spacing: 3.75px;
 }
 
@@ -51,10 +51,12 @@ h1 {
     color: $color-letter;
     margin-left: 10%;
     width: 65%;
-    font: normal normal 800 74px/75px Poppins;
+    font-family: normal normal 800 74px/75px "Poppins";
+
+
     letter-spacing: 0px;
-    color: #FFFFFF;
     text-shadow: 16px 6px 20px #42495B3D;
+    font-weight: 800;
 }
 
 .button1 {
@@ -90,7 +92,7 @@ h1 {
 
 h3 {
     padding-left: 10%;
-    font: normal normal 600 35px/40px Poppins;
+    font: normal normal 600 35px/40px "Poppins";
     letter-spacing: 0px;
     color: #42495B;
     margin-bottom: 5%;
@@ -111,6 +113,7 @@ h3 {
         box-shadow: 0px 10px 20px #42495B1A;
         border-radius: 30px;
         opacity: 1;
+
     }
 
     .card-title {
@@ -169,25 +172,7 @@ h3 {
     }
 }
 
-
-
-// button
-
-
-
-
 // gallery
-.text {
-
-    background: #E7E829 0% 0% no-repeat padding-box;
-    box-shadow: 0px 10px 20px #7E76F91A;
-    border-radius: 6%;
-    opacity: 0.7;
-}
-
-.text_1 {
-    margin-left: 7%;
-}
 
 @mixin events-img($left, $bottom) {
     position: absolute;
@@ -223,11 +208,34 @@ h3 {
     @include events-img(36%, 50%);
 }
 
-@media only screen and (max-width: 599px) {
-    .gallery_container {
-        width: 100%;
+
+.gallery_container {
+    width: 100%;
+
+    .gallery_card {
+background: #E7E829;
+        box-shadow: 0px 10px 20px #7E76F91A;
+        border-radius: 6%;
+        opacity: 0.5;
+        width: 27vw;
     }
+
+    .gallery_text {
+        font: normal normal 600 35px/40px Poppins;
+        font-weight: 800;
+        letter-spacing: 0px;
+        color: #42495B;
+        opacity: 1;
+        margin-top: 5%;
+    }
+    
+.gallery_paragraph {
+    margin-left: 7%;
+    width: 20vw;
 }
+
+}
+
 
 @media only screen and (min-width: 600px) {
     .gallery_container {
@@ -237,6 +245,7 @@ h3 {
         padding: 20px;
         grid-gap: 10px;
     }
+
 }
 
 .gallery_img {
