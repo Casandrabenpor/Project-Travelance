@@ -43,7 +43,12 @@ h3 {
   color: #42495B;
 }
 .grid-container .card-body {
-  padding: 2rem 4rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
 }
 .grid-container .card-img-top {
   width: 5vw;
