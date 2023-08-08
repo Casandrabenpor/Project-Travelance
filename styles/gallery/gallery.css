@@ -1,0 +1,140 @@
+.events-img {
+  position: absolute;
+  left: 36%;
+  bottom: 55%;
+}
+
+.events-img-activities {
+  position: absolute;
+  left: 42%;
+  bottom: 44%;
+}
+
+.events-img-rent {
+  position: absolute;
+  left: 44%;
+  bottom: 52%;
+}
+
+.events-img-flights {
+  position: absolute;
+  left: 44%;
+  bottom: 40%;
+}
+
+.events-img-tours {
+  position: absolute;
+  left: 37%;
+  bottom: 50%;
+}
+
+.events-img-routing {
+  position: absolute;
+  left: 40%;
+  bottom: 50%;
+}
+
+.events-img-cruises {
+  position: absolute;
+  left: 36%;
+  bottom: 50%;
+}
+
+.gallery_container {
+  width: 100%;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 275px;
+  padding: 20px;
+  grid-gap: 10px;
+}
+.gallery_container .gallery_card {
+  background: #E7E829;
+  box-shadow: 0px 10px 20px rgba(126, 118, 249, 0.1019607843);
+  border-radius: 6%;
+  opacity: 0.5;
+  width: 27vw;
+}
+.gallery_container .gallery_text {
+  font: normal normal 600 35px/40px Poppins;
+  font-weight: 800;
+  letter-spacing: 0px;
+  color: #42495B;
+  opacity: 1;
+  margin-top: 5%;
+}
+.gallery_container .gallery_paragraph {
+  margin-left: 7%;
+  width: 20vw;
+}
+
+.gallery_img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.84;
+}
+
+.gallery-hotels {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/hotels.jpg");
+  position: relative;
+  border-radius: 10%;
+  background-size: cover;
+  grid-column-start: span 2;
+}
+
+.gallery-activities {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/activities.jpg");
+  position: relative;
+  border-radius: 10%;
+  background-size: cover;
+  grid-row-start: span 2;
+}
+
+.gallery-rent-a-car {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/rent.jpg");
+  position: relative;
+  border-radius: 10%;
+  background-size: cover;
+}
+
+.gallery-flights {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/flights.jpg");
+  position: relative;
+  border-radius: 10%;
+  background-size: cover;
+  grid-row-start: span 2;
+}
+
+.gallery-tours {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/tours.jpg");
+  position: relative;
+  border-radius: 10%;
+  background-size: cover;
+}
+
+.gallery-routing {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/routing.jpg");
+  position: relative;
+  border-radius: 10%;
+  background-size: cover;
+}
+
+.gallery-cruises {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../img/cruises.jpg");
+  position: relative;
+  border-radius: 10%;
+  background-size: cover;
+  grid-column-start: span 2;
+}
+
+.img_title {
+  position: absolute;
+  color: #ffffff;
+  bottom: 29%;
+  left: 31%;
+  text-align: center;
+  font: normal normal bold 25px/64px Poppins;
+  letter-spacing: 0px;
+}/*# sourceMappingURL=gallery.css.map */

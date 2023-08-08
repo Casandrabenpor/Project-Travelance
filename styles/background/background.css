@@ -1,0 +1,51 @@
+body {
+  background: #FFFFFF;
+}
+
+.background-image {
+  background: url("../../img/fondo.png");
+}
+
+.background {
+  background: transparent url("../../img/photo1.png") 0% 0% no-repeat padding-box;
+  background-size: 100% 100%;
+  padding-bottom: 10%;
+}
+
+h2 {
+  color: #e7e829;
+  margin-left: 10%;
+  top: 30%;
+  padding-top: 10%;
+  text-align: left;
+  font-family: normal normal 800 25px/38px Poppins;
+  letter-spacing: 3.75px;
+}
+
+h1 {
+  color: #FFFFFF;
+  margin-left: 10%;
+  width: 65%;
+  font-family: normal normal 800 74px/75px "Poppins";
+  letter-spacing: 0px;
+  text-shadow: 16px 6px 20px rgba(66, 73, 91, 0.2392156863);
+  font-weight: 800;
+}
+
+.button1 {
+  color: #42495b;
+  width: 180px;
+  height: 40px;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-top: 5%;
+  margin-left: 10%;
+  text-align: center;
+  font: normal normal 600 14px/21px "Poppins";
+  letter-spacing: 0px;
+  color: #42495B;
+  opacity: 1;
+  background: #E7E829;
+  border-radius: 25px;
+  border: none;
+}/*# sourceMappingURL=background.css.map */

@@ -1,0 +1,82 @@
+.card_title {
+  color: #e7e829;
+  text-align: left;
+  margin-left: 7%;
+  font: normal normal normal 25px/38px Poppins;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin-top: 5%;
+}
+
+h3 {
+  margin-left: 7%;
+  font: normal normal 600 35px/40px "Poppins";
+  letter-spacing: 0px;
+  color: #42495B;
+  margin-top: 10%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.grid-container .card {
+  width: 367px;
+  height: 410px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px rgba(66, 73, 91, 0.1019607843);
+  border-radius: 30px;
+  opacity: 1;
+}
+.grid-container .card-title {
+  font: normal normal 600 18px/22px Poppins;
+  letter-spacing: 0px;
+  color: #42495B;
+}
+.grid-container .card-text {
+  font: normal normal normal 16px/22px Poppins;
+  letter-spacing: 0px;
+  color: #42495B;
+}
+.grid-container .card-body {
+  padding: 2rem 4rem;
+}
+.grid-container .card-img-top {
+  width: 5vw;
+  margin-left: 38%;
+  margin-top: 5%;
+}
+.grid-container .btn-small {
+  background: #E7E829;
+  border-radius: 25px;
+  margin-left: 70%;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 14px/21px Poppins;
+  color: #42495B;
+  width: 93px;
+  height: 30px;
+  border: none;
+  margin-top: 15%;
+}
+.grid-container .btn_round {
+  width: 80px;
+  height: 80px;
+  border: none;
+  margin-left: 70%;
+  border-radius: 55%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px rgba(66, 73, 91, 0.231372549);
+  opacity: 1;
+  margin-top: 40%;
+}
+.grid-container .find-more-travelance {
+  background: #E7E829;
+  box-shadow: 0px 10px 20px rgba(66, 73, 91, 0.1019607843);
+  border-radius: 30px;
+  opacity: 0.8;
+}/*# sourceMappingURL=cards.css.map */

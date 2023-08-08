@@ -1,0 +1,30 @@
+.target_animation {
+  background: #E7E829 0% 0% no-repeat padding-box;
+  border-radius: 36px;
+  opacity: 0.7;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  width: 85vw;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+}
+.target_animation .rocket {
+  width: 10vw;
+  height: 20vh;
+}
+.target_animation .button_animation {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 31px;
+  opacity: 1;
+  text-align: center;
+  font-family: normal normal 600 1em Poppins;
+  letter-spacing: 0px;
+  color: #42495B;
+  width: 260px;
+  height: 50px;
+  border: none;
+  box-shadow: 0px 0px 20px rgba(66, 73, 91, 0.231372549);
+}/*# sourceMappingURL=card_animation.css.map */
