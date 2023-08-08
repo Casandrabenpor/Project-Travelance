@@ -348,13 +348,14 @@ h3 {
   text-align: left;
   width: 250px;
 }
+#computer .options {
+  margin-bottom: 10%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
 #computer img {
   width: 50vw;
-}
-
-.options {
-  margin-bottom: 10%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  padding-left: 10%;
 }/*# sourceMappingURL=styles.css.map */
